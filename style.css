@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* index bio obras prensa contacto */
+.gridContenedor {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"; 
+}
+        
+.heaterGrid {
+    grid-area: header;   
+} 
+
+.mainGrid {
+    grid-area: main;
+}
+
+.footerGrid {
+    grid-area: footer;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 50px;    
+}
+
+.alinearLogo {
+    text-align: center;    
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+.barraNav_lista a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(69, 42, 170, 0.795);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(144, 77, 219);
+    padding: 10px;
+    margin-top: 70px;
+    border-radius: 20px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barraNav_lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin: 40px 0;
+    margin-top: 10px;
+}
+
+/* index */
+.caja {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.caja-img {
+    width: 100%;
+}
+
+.intro {
+    color: rgba(255, 255, 255, 0.671);
+    margin: 80px 80px;
+    text-align: justify;
+    display: flexbox;
+    justify-content: center;
+    margin-bottom: 10PX;    
+}
+
+ /* index bio obras prensa contacto */
+.alma {
+    width: 100%;
+}
+
+.linktree {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.face {
+    width: 70px;
+}
+
+.insta {
+    width: 30px;
+    margin-bottom: 3px;
+}
+
+.iconosredes {
+    text-align: center;
+}
+
+.iconosredes li {
+    display: inline-block;
+    margin: 30px;
+    list-style: none;
+}
+
+/* BIOGRAFIA */
+.presencias {
+    margin-top: 60px;        
+} 
+
+.bio {
+    margin: 80px 60px;
+    text-align: justify;
+    display: flexbox;
+    justify-content: center;
+    color: rgba(240, 248, 255, 0.671);
+}
+
+.biocompleta {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(65, 20, 230);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(21, 30, 163);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+/* obras */
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.img > * {
+    border-radius: 20px;    
+    width: 500px;   
+}
+
+/* prensa */
+.clarin {
+    width: 50%;
+    margin-top: 60px;   
+}
+
+.prensaCompleta {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(65, 20, 230);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(21, 30, 163);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+/* CONTACTO */
+.form {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 70PX;
+    margin-top: 20PX;   
+}
+
+body {
+    background-color: black;    
+} 
+
+
+
+
+
