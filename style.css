@@ -19,10 +19,12 @@
 
 .mainGrid {
     grid-area: main;
+    background-image: linear-gradient(to right, black, rgb(5, 5, 145), black);
 }
 
 .footerGrid {
     grid-area: footer;
+    background-image: linear-gradient(to right, black, rgb(5, 5, 145), black);
 }
 
 .logo {
@@ -211,7 +213,7 @@ nav {
     text-align: center;
     color: aliceblue;
     margin-bottom: 70PX;
-    margin-top: 20PX;   
+    margin-top: 60PX;   
 }
 
 body {
