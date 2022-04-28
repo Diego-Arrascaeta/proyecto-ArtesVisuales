@@ -3,79 +3,40 @@
     padding: 0%;
 }
 
-
-/* index bio obras prensa contacto */
-.gridContenedor {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"; 
-}
-        
-.heaterGrid {
-    grid-area: header;   
-} 
-
-.mainGrid {
-    grid-area: main;
-    background-image: linear-gradient(to right, black, rgb(5, 5, 145), black);
-}
-
-.footerGrid {
-    grid-area: footer;
-    background-image: linear-gradient(to right, black, rgb(5, 5, 145), black);
-}
-
 .logo {
     width: 150px;
     margin-top: 50px;    
 }
 
-.alinearLogo {
-    text-align: center;    
+.text-center {
+   color: rgba(255, 245, 233, 0.877);
 }
 
-h1 {
-    color: rgba(255, 255, 255, 0.836);
-    display: flex;
-    justify-content: center;
-    letter-spacing: 10px;
-}
-.barraNav_lista a {
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(69, 42, 170, 0.795);
-    border: 1px;
+.nav-link {
+    font-size: 24px;
+    border: 2px;
     border-style: solid;
-    border-color: rgb(144, 77, 219);
+    border-color: rgba(118, 17, 233, 0.596);
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 20px;
     border-radius: 20px;
     font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-.barraNav_lista {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav {
-    margin: 40px 0;
-    margin-top: 10px;
+.nav-item {
+    letter-spacing: 10px;    
+    margin-right: 70px;
 }
 
 .falsocarrusel {
     
     background-image: url(./FalsoCarrusel/almaAzul.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     animation-name: carrusel;
     animation-iteration-count: infinite;
     animation-duration: 5s;
-    
 }
 
 @keyframes carrusel {
@@ -96,34 +57,41 @@ nav {
     }
 }
 
+.alma {
+    width: 100%;
+}
 
-/* index */
-.caja {
-    text-align: center;
+.medio {
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
 .caja-img {
-    width: 100%;
+    width: 100%; 
+     
 }
 
 .intro {
     color: rgba(255, 255, 255, 0.671);
-    margin: 80px 80px;
+    margin: 50px 80px;
     text-align: justify;
     display: flexbox;
     justify-content: center;
     margin-bottom: 10PX;    
 }
 
- /* index bio obras prensa contacto */
-.alma {
-    width: 100%;
+.redes{
+    display: flex;
+    justify-content: center;    
 }
 
-.linktree {
-    width: 60px;
-    margin-bottom: 10px;
+.iconosredes li {
+    display: inline-block;
+    margin-top: 20px;          
+}
+
+ .linktree {
+    width: 60px;    
 }
 
 .face {
@@ -131,23 +99,13 @@ nav {
 }
 
 .insta {
-    width: 30px;
-    margin-bottom: 3px;
-}
-
-.iconosredes {
-    text-align: center;
-}
-
-.iconosredes li {
-    display: inline-block;
-    margin: 30px;
-    list-style: none;
+    width: 30px;   
 }
 
 /* BIOGRAFIA */
 .presencias {
-    margin-top: 60px;        
+    margin-top: 60px;
+    width: 100%;        
 } 
 
 .bio {
@@ -177,19 +135,19 @@ nav {
 .img {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 20px;
+    flex-wrap: wrap;   
+    column-gap: 50px;
 }
 
 .img > * {
     border-radius: 20px;    
-    width: 500px;   
+    width: 300px; 
+    margin-top: 60px;  
 }
 
 /* prensa */
 .clarin {
-    width: 50%;
+    width: 60%;
     margin-top: 60px;   
 }
 
@@ -217,7 +175,7 @@ nav {
 }
 
 body {
-    background-color: black;    
+    background-color: rgb(0, 0, 0);    
 } 
 
 
