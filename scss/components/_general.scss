@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+        .logo {
+            width: 150px;
+            margin-top: 50px;
+        }
+
+        .text-center {
+            color: rgba(255, 245, 233, 0.877);
+         }
+
+         .nav-item {   
+            font-size: 24px;
+            border: 2px;
+            border-style: solid;
+            border-color: rgba(118, 17, 233, 0.596);
+            padding: 5px;
+            margin-top: 20px;
+            border-radius: 20px;
+            font-size: small;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 10px;    
+            margin-right: 40px;
+        }
+        .falsocarrusel {
+            background-image: url(./FalsoCarrusel/almaAzul.png);
+            background-attachment: fixed;
+            animation-name: carrusel;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+        }
+        
+        @keyframes carrusel {
+            20% {
+                background-image: url(./FalsoCarrusel/almaCeleste.png);
+            }
+            40% {
+                background-image: url(./FalsoCarrusel/almaChicle.png);
+            }
+            60% {
+                background-image: url(./FalsoCarrusel/almaNaranja.png);
+            }
+            80% {
+                background-image: url(./FalsoCarrusel/almaRojo.png);
+            }
+            100% {
+                background-image: url(./FalsoCarrusel/almaChicle.png);
+            }
+        }
+        
+    }
+
+    .footer {
+       .row {
+          .col {
+            .falsocarrusel {
+    
+                background-image: url(./FalsoCarrusel/almaAzul.png);
+                background-attachment: fixed;
+                animation-name: carrusel;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
+            }
+            
+            @keyframes carrusel {
+                20% {
+                    background-image: url(./FalsoCarrusel/almaCeleste.png);
+                }
+                40% {
+                    background-image: url(./FalsoCarrusel/almaChicle.png);
+                }
+                60% {
+                    background-image: url(./FalsoCarrusel/almaNaranja.png);
+                }
+                80% {
+                    background-image: url(./FalsoCarrusel/almaRojo.png);
+                }
+                100% {
+                    background-image: url(./FalsoCarrusel/almaChicle.png);
+                }
+                
+            }
+            
+        .alma {
+                width: 100%;
+            }
+            
+        .redes {
+            display: flex;
+            justify-content: center;  
+            .iconosredes li {
+               display: inline-block;
+               margin-top: 20px;          
+    }
+            .linktree {
+               width: 60px;    
+    }
+    
+            .face {
+               width: 70px;
+    }
+    
+            .insta {
+               width: 30px;   
+    }
+        }
+          }
+     }
+    }
+
+    body {
+        background-color: rgb(0, 0, 0);    
+    } 
+    

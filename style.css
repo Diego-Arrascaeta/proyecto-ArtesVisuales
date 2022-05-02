@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0%;
     padding: 0%;
@@ -12,26 +13,22 @@
    color: rgba(255, 245, 233, 0.877);
 }
 
-.nav-link {
+.nav-item { 
+    letter-spacing: 10px;    
+    margin-right: 40px;  
     font-size: 24px;
     border: 2px;
     border-style: solid;
     border-color: rgba(118, 17, 233, 0.596);
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     border-radius: 20px;
     font-size: small;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.nav-item {
-    letter-spacing: 10px;    
-    margin-right: 70px;
+    
 }
 
 .falsocarrusel {
-    
     background-image: url(./FalsoCarrusel/almaAzul.png);
     background-attachment: fixed;
     animation-name: carrusel;
@@ -61,25 +58,6 @@
     width: 100%;
 }
 
-.medio {
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.caja-img {
-    width: 100%; 
-     
-}
-
-.intro {
-    color: rgba(255, 255, 255, 0.671);
-    margin: 50px 80px;
-    text-align: justify;
-    display: flexbox;
-    justify-content: center;
-    margin-bottom: 10PX;    
-}
-
 .redes{
     display: flex;
     justify-content: center;    
@@ -102,7 +80,33 @@
     width: 30px;   
 }
 
-/* BIOGRAFIA */
+body {
+    background-color: rgb(0, 0, 0);    
+} 
+
+
+/* Index */
+.medio {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.caja-img {
+    width: 100%; 
+     
+}
+
+.intro {
+    color: rgba(255, 255, 255, 0.671);
+    margin: 50px 80px;
+    text-align: justify;
+    display: flexbox;
+    justify-content: center;
+    margin-bottom: 10PX;    
+}
+
+
+/* Biografia */
 .presencias {
     margin-top: 60px;
     width: 100%;        
@@ -145,7 +149,7 @@
     margin-top: 60px;  
 }
 
-/* prensa */
+/* Prensa */
 .clarin {
     width: 60%;
     margin-top: 60px;   
@@ -166,7 +170,7 @@
     letter-spacing: 10px;
 }
 
-/* CONTACTO */
+/* Contacto */
 .form {
     text-align: center;
     color: aliceblue;
@@ -174,9 +178,8 @@
     margin-top: 60PX;   
 }
 
-body {
-    background-color: rgb(0, 0, 0);    
-} 
+
+
 
 
 
