@@ -31,9 +31,12 @@
 .falsocarrusel {
     background-image: url(./FalsoCarrusel/almaAzul.png);
     background-attachment: fixed;
+    background-size: cover;
+    background-size: contain;
     animation-name: carrusel;
     animation-iteration-count: infinite;
     animation-duration: 5s;
+    
 }
 
 @keyframes carrusel {
