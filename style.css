@@ -19,17 +19,17 @@
     font-size: 24px;
     border: 2px;
     border-style: solid;
-    border-color: rgba(118, 17, 233, 0.596);
+    border-color: rgba(0, 17, 255, 0.507);
     padding: 5px;
     margin-top: 20px;
     border-radius: 20px;
     font-size: small;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    background-color: rgba(98, 0, 255, 0.185);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 .falsocarrusel {
-    background-image: url(./FalsoCarrusel/almaAzul.png);
+    background-image: url(./Imagenes/almaAzul.png);
     background-attachment: fixed;
     background-size: cover;
     background-size: contain;
@@ -41,19 +41,19 @@
 
 @keyframes carrusel {
     20% {
-        background-image: url(./FalsoCarrusel/almaCeleste.png);
+        background-image: url(./Imagenes/almaCeleste.png);
     }
     40% {
-        background-image: url(./FalsoCarrusel/almaChicle.png);
+        background-image: url(./Imagenes/almaChicle.png);
     }
     60% {
-        background-image: url(./FalsoCarrusel/almaNaranja.png);
+        background-image: url(./Imagenes/almaNaranja.png);
     }
     80% {
-        background-image: url(./FalsoCarrusel/almaRojo.png);
+        background-image: url(./Imagenes/almaRojo.png);
     }
     100% {
-        background-image: url(./FalsoCarrusel/almaChicle.png);
+        background-image: url(./Imagenes/almaAzul.png);
     }
 }
 
@@ -62,13 +62,13 @@
 }
 
 .redes{
-    display: flex;
-    justify-content: center;    
+  text-align: center;
+  margin-right: 25px;    
 }
 
 .iconosredes li {
     display: inline-block;
-    margin-top: 20px;          
+    margin-top: 20px;           
 }
 
  .linktree {
@@ -103,7 +103,7 @@ body {
     color: rgba(255, 255, 255, 0.671);
     margin: 50px 80px;
     text-align: justify;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     margin-bottom: 10PX;    
 }
@@ -123,7 +123,12 @@ body {
     color: rgba(240, 248, 255, 0.671);
 }
 
-.biocompleta {
+.bio__completa li {
+    list-style: none;
+    margin-right: 30px;    
+}
+
+.biocompleta {    
     font-size: 20px;
     text-decoration: none;
     color: rgb(65, 20, 230);
@@ -136,6 +141,7 @@ body {
     display: flex;
     justify-content: center;
     letter-spacing: 10px;
+    
 }
 
 /* obras */
@@ -156,6 +162,11 @@ body {
 .clarin {
     width: 60%;
     margin-top: 60px;   
+}
+
+.prensa__completa li {
+    list-style: none;
+    margin-right: 25px;  
 }
 
 .prensaCompleta {

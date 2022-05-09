@@ -14,17 +14,20 @@
          }
 
          .nav-item {   
-            font-size: 24px;
-            border: 2px;
+            font-size: map-get($tamanio-tipografia, titulos);
+
+           /*  @include border(solid, rgba(0, 17, 255, 0.507), 5px, 20px) */ 
+
+            /* border: 2px;
             border-style: solid;
-            border-color: rgba(118, 17, 233, 0.596);
+            border-color: rgba(0, 17, 255, 0.507);
             padding: 5px;
-            margin-top: 20px;
-            border-radius: 20px;
+            border-radius: 20px; */
             font-size: small;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             letter-spacing: 10px;    
             margin-right: 40px;
+            
         }
         .falsocarrusel {
             background-image: url(./FalsoCarrusel/almaAzul.png);
@@ -90,11 +93,10 @@
             }
             
         .redes {
-            display: flex;
-            justify-content: center;  
+            @extend %flex-center; 
             .iconosredes li {
                display: inline-block;
-               margin-top: 20px;          
+               margin-top: 20px;
     }
             .linktree {
                width: 60px;    
@@ -113,6 +115,28 @@
     }
 
     body {
-        background-color: rgb(0, 0, 0);    
+        background-color: rgb(0, 0, 0);
+        
     } 
+
+    %flex {
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+    
+    %flex-center {
+        display: flex;
+        justify-content: center;
+    }
+    
+    @mixin border ($border-style, $border-color, $padding, $border-radius) {
+        border: 2px;
+        border-style: $border-style; 
+        border-color: $border-color;
+        padding: $padding;
+        border-radius: $border-radius;
+    }
+
+
     

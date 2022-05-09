@@ -1,0 +1,30 @@
+.presencias {
+    margin-top: 60px;
+    width: 100%;        
+} 
+
+.bio {
+    @extend %flex;
+    margin: 80px 60px;
+    color: rgba(240, 248, 255, 0.671);
+}
+
+.bio__completa li {
+    list-style: none;
+    margin-right: 30px;    
+}
+
+.biocompleta {    
+    font-size: map-get($tamanio-tipografia, subtitulos);
+    text-decoration: none;
+    color: rgb(65, 20, 230);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(21, 30, 163);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.836);
+    @extend %flex-center;
+    letter-spacing: 10px;
+    
+}

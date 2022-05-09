@@ -12,12 +12,12 @@
 
 .header .nav-item {
   font-size: 24px;
-  border: 2px;
-  border-style: solid;
-  border-color: rgba(118, 17, 233, 0.596);
-  padding: 5px;
-  margin-top: 20px;
-  border-radius: 20px;
+  /*  @include border(solid, rgba(0, 17, 255, 0.507), 5px, 20px) */
+  /* border: 2px;
+            border-style: solid;
+            border-color: rgba(0, 17, 255, 0.507);
+            padding: 5px;
+            border-radius: 20px; */
   font-size: small;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 10px;
@@ -64,18 +64,83 @@
 .footer .row .col .alma {
   width: 100%; }
 
-.footer .row .col .redes {
-  display: flex;
-  justify-content: center; }
-  .footer .row .col .redes .iconosredes li {
-    display: inline-block;
-    margin-top: 20px; }
-  .footer .row .col .redes .linktree {
-    width: 60px; }
-  .footer .row .col .redes .face {
-    width: 70px; }
-  .footer .row .col .redes .insta {
-    width: 30px; }
+.footer .row .col .redes .iconosredes li {
+  display: inline-block;
+  margin-top: 20px; }
+
+.footer .row .col .redes .linktree {
+  width: 60px; }
+
+.footer .row .col .redes .face {
+  width: 70px; }
+
+.footer .row .col .redes .insta {
+  width: 30px; }
 
 body {
   background-color: black; }
+
+.bio, .intro {
+  text-align: justify;
+  display: flex;
+  justify-content: center; }
+
+.footer .row .col .redes, .biocompleta, .prensaCompleta {
+  display: flex;
+  justify-content: center; }
+
+.presencias {
+  margin-top: 60px;
+  width: 100%; }
+
+.bio {
+  margin: 80px 60px;
+  color: rgba(240, 248, 255, 0.671); }
+
+.bio__completa li {
+  list-style: none;
+  margin-right: 30px; }
+
+.biocompleta {
+  font-size: 20px;
+  text-decoration: none;
+  color: #4114e6;
+  border: 1px;
+  border-style: solid;
+  border-color: #151ea3;
+  padding: 5px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.836);
+  letter-spacing: 10px; }
+
+.medio {
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.caja-img {
+  width: 100%; }
+
+.intro {
+  color: rgba(255, 255, 255, 0.671);
+  margin: 50px 80px;
+  margin-bottom: 10PX; }
+
+.clarin {
+  width: 60%;
+  margin-top: 60px; }
+
+.prensa__completa li {
+  list-style: none;
+  margin-right: 25px; }
+
+.prensaCompleta {
+  font-size: 20px;
+  text-decoration: none;
+  color: #4114e6;
+  border: 1px;
+  border-style: solid;
+  border-color: #151ea3;
+  padding: 5px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.836);
+  letter-spacing: 10px; }
