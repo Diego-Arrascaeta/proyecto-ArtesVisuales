@@ -1,93 +1,78 @@
-/* MAPS */
-* {
-  margin: 0%;
-  padding: 0%; }
-
-.header .logo {
-  width: 150px;
-  margin-top: 50px; }
-
-.header .text-center {
-  color: rgba(255, 245, 233, 0.877); }
-
-.header .nav-item {
-  font-size: 24px;
-  /*  @include border(solid, rgba(0, 17, 255, 0.507), 5px, 20px) */
-  /* border: 2px;
-            border-style: solid;
-            border-color: rgba(0, 17, 255, 0.507);
-            padding: 5px;
-            border-radius: 20px; */
-  font-size: small;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  letter-spacing: 10px;
-  margin-right: 40px; }
-
-.header .falsocarrusel {
-  background-image: url(./FalsoCarrusel/almaAzul.png);
-  background-attachment: fixed;
-  animation-name: carrusel;
-  animation-iteration-count: infinite;
-  animation-duration: 5s; }
-
-@keyframes carrusel {
-  20% {
-    background-image: url(./FalsoCarrusel/almaCeleste.png); }
-  40% {
-    background-image: url(./FalsoCarrusel/almaChicle.png); }
-  60% {
-    background-image: url(./FalsoCarrusel/almaNaranja.png); }
-  80% {
-    background-image: url(./FalsoCarrusel/almaRojo.png); }
-  100% {
-    background-image: url(./FalsoCarrusel/almaChicle.png); } }
-
-.footer .row .col .falsocarrusel {
-  background-image: url(./FalsoCarrusel/almaAzul.png);
-  background-attachment: fixed;
-  animation-name: carrusel;
-  animation-iteration-count: infinite;
-  animation-duration: 5s; }
-
-@keyframes carrusel {
-  20% {
-    background-image: url(./FalsoCarrusel/almaCeleste.png); }
-  40% {
-    background-image: url(./FalsoCarrusel/almaChicle.png); }
-  60% {
-    background-image: url(./FalsoCarrusel/almaNaranja.png); }
-  80% {
-    background-image: url(./FalsoCarrusel/almaRojo.png); }
-  100% {
-    background-image: url(./FalsoCarrusel/almaChicle.png); } }
-
-.footer .row .col .alma {
-  width: 100%; }
-
-.footer .row .col .redes .iconosredes li {
-  display: inline-block;
-  margin-top: 20px; }
-
-.footer .row .col .redes .linktree {
-  width: 60px; }
-
-.footer .row .col .redes .face {
-  width: 70px; }
-
-.footer .row .col .redes .insta {
-  width: 30px; }
-
-body {
-  background-color: black; }
-
 .bio, .intro {
   text-align: justify;
   display: flex;
   justify-content: center; }
 
-.footer .row .col .redes, .biocompleta, .prensaCompleta {
+.redes, .biocompleta, .prensaCompleta {
   display: flex;
   justify-content: center; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.logo {
+  width: 150px;
+  margin-top: 50px; }
+
+.text-center {
+  color: rgba(255, 245, 233, 0.877); }
+
+.nav-item {
+  font-size: 24px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgba(0, 17, 255, 0.507);
+  padding: 5px;
+  border-radius: 20px;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 10px;
+  margin-right: 40px; }
+
+.falsocarrusel {
+  background-image: url(/Imagenes/almaAzul.png);
+  background-attachment: fixed;
+  animation-name: carrusel;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+@keyframes carrusel {
+  20% {
+    background-image: url(/Imagenes/almaCeleste.png); }
+  40% {
+    background-image: url(/Imagenes/almaChicle.png); }
+  60% {
+    background-image: url(/Imagenes/almaNaranja.png); }
+  80% {
+    background-image: url(/Imagenes/almaRojo.png); }
+  100% {
+    background-image: url(/Imagenes/almaChicle.png); } }
+
+.alma {
+  width: 100%; }
+
+.redes .iconosredes li {
+  display: inline-block;
+  margin-top: 20px; }
+
+.redes .linktree {
+  width: 60px; }
+
+.redes .face {
+  width: 70px; }
+
+.redes .insta {
+  width: 30px; }
+
+body {
+  background-color: black; }
+
+.form {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 70PX;
+  margin-top: 60PX; }
 
 .presencias {
   margin-top: 60px;
@@ -124,6 +109,17 @@ body {
   color: rgba(255, 255, 255, 0.671);
   margin: 50px 80px;
   margin-bottom: 10PX; }
+
+.img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px; }
+
+.img > * {
+  border-radius: 20px;
+  width: 300px;
+  margin-top: 60px; }
 
 .clarin {
   width: 60%;

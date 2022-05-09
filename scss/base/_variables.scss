@@ -1,3 +1,23 @@
+%flex {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin border ($border, $border-style, $border-color, $padding, $border-radius) {
+    border: $border;
+    border-style: $border-style; 
+    border-color: $border-color;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+
 $color-fondo: black;
 $color-arrascaeta: rgba(255, 245, 233, 0.877);
 $tamanio-logo: 150px;
@@ -5,7 +25,7 @@ $alma: 100%;
 $color-intro: rgba(255, 255, 255, 0.671);
 $color-bio: rgba(240, 248, 255, 0.671);
 
-/* MAPS */
+
 $tamanio-tipografia:(
     titulos: 24px,
     subtitulos: 20px,
