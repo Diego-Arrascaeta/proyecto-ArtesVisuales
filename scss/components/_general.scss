@@ -8,7 +8,7 @@
             width: 150px;
             margin-top: 50px;
         }
-
+              
         .text-center {
             color: rgba(255, 245, 233, 0.877);
          }
@@ -17,7 +17,6 @@
             font-size: map-get($tamanio-tipografia, titulos);
             @include border (2px, solid,rgba(0, 17, 255, 0.507), 5px, 20px)
             font-size: small;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             letter-spacing: 10px;    
             margin-right: 40px;            
         }
@@ -25,6 +24,8 @@
         .falsocarrusel {
             background-image: url(/Imagenes/almaAzul.png);
             background-attachment: fixed;
+            background-size: cover;
+            background-size: contain;
             animation-name: carrusel;
             animation-iteration-count: infinite;
             animation-duration: 5s;
@@ -53,10 +54,11 @@
             }
             
         .redes {
-            @extend %flex-center; 
+            @extend %flex; 
             .iconosredes li {
                display: inline-block;
                margin-top: 20px;
+               margin-right: 20px;
     }
             .linktree {
                width: 60px;    
@@ -72,8 +74,7 @@
         }          
    
     body {
-        background-color: rgb(0, 0, 0);
-        
+        background-color: rgb(0, 0, 0);        
     } 
 
   

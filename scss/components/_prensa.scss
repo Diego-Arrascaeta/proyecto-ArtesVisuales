@@ -1,23 +1,24 @@
 .clarin {
+    text-align: center;
     width: 60%;
-    margin-top: 60px;   
+    margin-top: 60px;
+    display: inline-block; 
 }
 
 .prensa__completa li {
     list-style: none;
-    margin-right: 25px;  
+    margin-right: 28px;  
 }
 
 .prensaCompleta {
     font-size: map-get($tamanio-tipografia, subtitulos);
     text-decoration: none;
-    color: rgb(65, 20, 230);
     border: 1px;
     border-style: solid;
     border-color: rgb(21, 30, 163);
     padding: 5px;
     border-radius: 20px;
     color: rgba(255, 255, 255, 0.836);
-    @extend %flex-center;
+    @extend %flex;
     letter-spacing: 10px;
 }

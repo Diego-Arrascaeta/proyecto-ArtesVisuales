@@ -4,11 +4,6 @@
     justify-content: center;
 }
 
-%flex-center {
-    display: flex;
-    justify-content: center;
-}
-
 @mixin border ($border, $border-style, $border-color, $padding, $border-radius) {
     border: $border;
     border-style: $border-style; 
