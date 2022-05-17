@@ -96,11 +96,8 @@ body {
   color: rgba(255, 255, 255, 0.836);
   letter-spacing: 10px; }
 
-.medio {
-  margin-bottom: 50px;
-  margin-top: 50px; }
-
 .caja-img {
+  margin-top: 50px;
   width: 100%; }
 
 .intro {
