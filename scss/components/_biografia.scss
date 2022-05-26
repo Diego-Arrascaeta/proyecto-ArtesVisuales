@@ -1,12 +1,12 @@
 .presencias {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;        
 } 
 
 .bio {
     @extend %flex;
-    margin: 80px 60px;
-    color: rgba(240, 248, 255, 0.671);
+    margin: 30px 60px;
+    color: $color-bio;
 }
 
 .bio__completa li {
@@ -25,6 +25,5 @@
     border-radius: 20px;
     color: rgba(255, 255, 255, 0.836);
     @extend %flex;
-    letter-spacing: 10px;
-    
+    letter-spacing: 10px;    
 }

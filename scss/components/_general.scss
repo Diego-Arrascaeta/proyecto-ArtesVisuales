@@ -5,17 +5,17 @@
 }
 
         .logo {
-            width: 150px;
+            width: $tamanio-logo;
             margin-top: 50px;
         }
               
         .text-center {
-            color: rgba(255, 245, 233, 0.877);
+            color: $color-arrascaeta;
         }
 
          .nav-item {   
             font-size: map-get($tamanio-tipografia, titulos);
-            @include border (2px, solid,rgba(0, 17, 255, 0.507), 5px, 20px)
+            @include border (1px, solid,rgb(0, 17, 255), 1px, 20px)
             font-size: small;
             letter-spacing: 10px;    
             margin-right: 40px;
@@ -50,7 +50,7 @@
         }
                    
         .alma {
-                width: 100%;
+                width: $alma;
             }
             
         .redes {
@@ -74,7 +74,7 @@
         }          
    
     body {
-      background-color: rgb(0, 0, 0);        
+      background-color: $color-fondo;        
 } 
 
   

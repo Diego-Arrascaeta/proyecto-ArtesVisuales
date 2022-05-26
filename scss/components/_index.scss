@@ -5,7 +5,7 @@
 
 .intro {
     @extend %flex;
-    color: rgba(255, 255, 255, 0.671);
+    color: $color-intro;
     margin: 50px 80px;
     margin-bottom: 10PX; 
 }
